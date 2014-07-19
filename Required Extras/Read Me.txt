@@ -1,0 +1,20 @@
+nircmdc.exe
+===========
+
+This File is required to execute commands from SPC Controller system. Place this file in the working directory of your project. 
+
+userdata.dat
+============
+
+Not compulsary. You can delete this file initially. This file contain the post id of the last command executed by the system so that next time if project executed that command will not run again.
+
+
+CommandLog.dat
+==============
+
+This file is also not necessary. This file will log all the command executed by the system with date and time. 
+
+commandlist.dat
+===============
+
+Required file of the SPC Controller system. this file will contain all the command that can be executed by the system. Edit this file accordingly in order to incorporate more commands.

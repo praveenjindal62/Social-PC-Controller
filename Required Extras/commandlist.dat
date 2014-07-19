@@ -1,0 +1,18 @@
+1-shutdown ['"].*['"] \d{2,3}-exitwin poweroff
+2-mute-mutesysvolume 1
+3-unmute-mutesysvolume 0
+4-togglemute-mutesysvolume 2
+5-monitoroff-monitor off
+6-standby
+7-logoff-exitwin logoff
+8-reboot
+9-abort
+10-hibernate
+11-volume \d{1,5}
+12-increasevol
+13-decreasevol
+14-msg ['"].*['"]
+15-screenshot
+18-process list
+19-killprocess \d{1,5}
+
